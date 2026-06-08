@@ -1,0 +1,19 @@
+# ─────────────────────────────────────────────
+# TRIDENT WhatsApp Agent — Environment Variables
+# Copy this to .env and fill in your values
+# DO NOT commit .env to GitHub
+# ─────────────────────────────────────────────
+
+# Meta WhatsApp Business API
+WHATSAPP_ACCESS_TOKEN=your_permanent_access_token_here
+WHATSAPP_PHONE_NUMBER_ID=your_phone_number_id_here
+WHATSAPP_BUSINESS_ACCOUNT_ID=your_waba_id_here
+
+# Webhook security token (you create this — any random string)
+WEBHOOK_VERIFY_TOKEN=trident_secret_2024
+
+# DeepSeek API
+DEEPSEEK_API_KEY=sk-your_deepseek_key_here
+
+# Server
+PORT=3000
